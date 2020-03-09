@@ -1,8 +1,8 @@
 {
-  "name": "YoutubeUploadBot",
-  "description": "Telegram to YouTube Uploader Bot",
-  "repository": "https://github.com/odysseusmax/utube",
-  "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
+  "name": "ftzr - You2be Uploader bot",
+  "description": "Simple bot to upload your videos to YT",
+  "repository": "https://github.com/fortifying/youtube-upfile",
+  "logo": "https://telegra.ph/file/6176fc116d6f34a94605d.jpg",
   "keywords": ["telegram", "youtube", "uploader"],
   "env": {
       "BOT_TOKEN": {
