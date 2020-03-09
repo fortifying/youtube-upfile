@@ -1,4 +1,4 @@
-# [Youtube Uploader Bot](https://t.me/youtubeitbot)
+# [Youtube Uploader Bot](https://t.me/fortizeryou2be_bot)
 
 
 
@@ -10,11 +10,8 @@
 
 * [Info](#info)
 * [Libraries Used](#libraries-used)
-* [Setup](#setup)
 * [Status](#status)
 * [Special Notes](#special-notes)
-* [Screenshots](#screenshots)
-* [Video Tutorial](#video-tutorial)
 * [Contact](#contact)
 
 ### Info
@@ -39,7 +36,7 @@ This is a simple hobby project which i was really curious about to impliment. Th
 **Clone and setup virtual environment**
 
 ``` bash
-$ git clone https://github.com/odysseusmax/utube.git
+$ git clone https://github.com/fortifying/youtube-upfile.git
 
 $ cd utube
 
@@ -48,18 +45,6 @@ $ virtualenv venv
 $ source venv/bin/activate
 
 ```
-
-**Setup config.py**
-
-* Head to [Manage Apps](https://my.telegram.org) and get your `API_ID` and `API_HASH`, and save it at the respective positions in `config.py`
-
-* Head to [Google console](https://console.developers.google.com "Google console"), create a new project named `Youtube Uploader` and enable `API'S AND SERVISES`. Search for `YOUTUBE DATA API v3` and enable the API. Go to [Credentials](https://console.developers.google.com/apis/credentials "Credentials") page, select your project `Youtube Uploader` create a new credential with `other` as type. Copy the `CLIENT_ID` and `CLIENT_SECRET` and paste them to `config.py`
-
-* Head to [Bot Father](https://t.me/BotFather "Bot Father"), create new bot and paste the bot token to `BOT_TOKEN`
-
-* Paste the bot owner's Telegram id to `BOT_OWNER` and add `AUTH_USERS` if you need others to use your bot.
-
-* _All the contents of `config.py` must be kept secret as they contain sensitive informations_
 
 **Install requirements**
 
@@ -80,7 +65,7 @@ If you did everything correctly, the bot should be running. Go do `/start` to se
 
 **Or the easy way of directly deploying to heroku**
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/odysseusmax/utube/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fortifying/youtube-upfile/tree/master)
 
 
 
@@ -96,33 +81,7 @@ This project is actively maintained and will continue so until I'm tired of it.
 
 * All the videos are uploaded as private. You may change it after youtube processes the video.
 
-### Screenshots
-<p align="center">
-
-<img  width="25%" height="25%" src="./ss/overview.jpg">
-
-<img  width="25%" height="25%" src="./ss/bot-start.jpg">
-
-<img  width="25%" height="25%" src="./ss/bot-help.jpg">
-
-<img  width="25%" height="25%" src="./ss/bot-authorise.jpg">
-
-<img  width="25%" height="25%" alt="Upload" src="./ss/bot-upload.jpg">
-
-</p>
-
-### Video Tutorial
-
-<p align="center">
-           <a href="http://www.youtube.com/watch?feature=player_embedded&v=LSs8b5dMWIA" target="_blank">
-                      <img src="http://img.youtube.com/vi/LSs8b5dMWIA/hqdefault.jpg" alt="How To Make Telegram Bot For YouTube Videos Uploading" />
-           </a>
-</p>
-<p align="center">
-           <b>Video Tutorial</b>
-</p>
-
 ### Contact
 
 Share the FeedBack and Suggestions with me.
-You can contact me [Here](https://telegram.dog/odysseusmax "Contact me")
+You can contact me [Here](https://telegram.dog/fortifying "Contact me")
